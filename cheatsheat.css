@@ -1,0 +1,43 @@
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    display: table;
+    border: 3px solid black;
+    width: 800px;    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:mintcream;
+    color:midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td {
+    border-top: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.code {
+    font-family: Monospace;
+    color: blueviolet;
+}
+
+h6 {
+    text-align: right;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
