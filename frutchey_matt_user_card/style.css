@@ -1,0 +1,73 @@
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#container {
+    background-color: white;
+    width: 960px;
+    margin: 0px auto;
+    border: 1px solid #cdcdcd; 
+}
+
+.banner {
+    background-color: #17a2b8;
+    height: 100px;
+}
+
+/* Flex is a parent thing ONLY! 'Tell your children to...'
+Justify content only changes the horizontal axis...
+Align items is for vertical axis (top and bottom only)
+Align -self- goes on the child, but only if the parent has flex.*/
+
+#user-circle {
+    padding-left: 25px;
+    margin-top: -50px;
+}
+
+h1 {
+    height: 50px;
+    margin-top: -10px;
+    padding-left: 25px;
+}
+
+#location {
+    padding-left: 5px;
+    display: flex;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+
+img {
+    height: 100px;
+    
+}
+
+.icon {
+    height: 25px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: -5px;
+}
+
+#roles {
+    margin-top: -3px;
+}
+
+#bio {
+    margin-top: -20px;
+}
+
+#settings {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+
+#settings a {
+    padding-left: 10px;
+}
