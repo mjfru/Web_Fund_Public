@@ -1,0 +1,31 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+h1 {
+    color: mediumseagreen
+}
+
+h2 {
+    color: steelblue;
+}
+
+h3 {
+    color:orangered;
+}
+
+.selecting {
+    color: red;
+}
+
+#special {
+    background-color: darkgray;
+}
+
+input[type="text"] {
+    background-color: aqua;
+}
+
+input[type="submit"]{
+    color:blueviolet;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Selectors</title>
+</head>
+<body>
+    <h1>Using CSS Selectors</h1>
+    <h2>Setting up CSS in our HTML</h2>
+        <p>The first step to effectively using CSS is to make sure we have a folder to make multiple files in. 
+            After that, create a well-named CSS title and use the < link > tag in the head of the HTML.
+            Within that tag, use the attribute rel = "stylesheet" and href="local_url_here"  
+        </p>
+    <h2 class="selecting">How to Start Selecting</h2>
+        <p>The most basic way to select and change elements in CSS is to select all the elements.
+            To do this, one will type the element name (i.e. h1), curly brackets spaced like JS ({}) and the desired styling contained within them.
+        </p>
+        <p>To begin getting more specific, we can start assigning classes to elements. On this page, the first h2 element has no class attached, while the second one has a class of "selecting".
+            The syntax for utilizing classes is: <b>.</b>class_name, {}
+        </p>
+        <p id="special">In situations where there needs to be only <b>one</b> of an important element, we can use an id tag instead of class. This p tag will have an id of "special" and should not be repeated elsewhere in the code.</p>
+        <p>The syntax for accessing elements with an id is #id_name, {}</p>
+    <h2>Advanced Selector Usage</h2>
+    <h3>Wildcard</h3>
+        <p>In the event that we want to style to apply to everything on our page, we can use what is known as the <i>Wildcard</i> selector, which has a syntax of * {}</p>
+        <p>A solid red outline is showing that utility off on this particular page...and is currently commented out because it looks atrocious! It is used though to check spacing and overall layout.</p>
+    <h3>Selector Specificty</h3>
+        <p>There is a hierarchy in CSS which overrides each other.</p>
+        <p>An id selector (#{}) is the strongest, followed by class (.{}), tag ({}), and finally the wildcard (*). </p>
+        <p>This means if an element has multiple tags, it will apply the style connected to the highest ranking selector.</p>
+    <h3>Descendant Selector</h3>
+        <p>Sometimes we know the element we want to select is inside of another element. If the "parent" element is one we can easily select (maybe it has a class on it), 
+            then we can use this to our advantage to access the child element easily.</p>
+        <p>Suppose we have a div parent element with a class of "quote". Nested within is a child p element. We could access this by using .quote p {}</p>
+    <h3>Direct Descendant Selector</h3>
+            <p>As its name implies, we can select a child element with this kind of selector `>`, but unlike the previous descendant selector, it will not select grandchildren.</p>
+            <p>Syntax looks like this: .header > img {style_here}...this would only change an img element directly below the parent .header. Elements nested within img would not be included.</p>
+    <h3>Attribute Selector</h3>
+            <p>Sometimes we have a situation where we want to style two similar elements that rely on an attribute for how they behave.
+                The < input > element is an example of this. We do not want our input area to have the same styling as the input button. To solve this, we can use different syntax to differentiate.</p>
+            <p>input {} would select all inputs. input[type="text"]{} would select only inputs with the type "text".</p>
+            <label for="example1">Example 1 - Type = Text</label>
+            <input type="text">
+            <label for="example2">Example 2 - Type = Submit</label>
+            <input type="submit" value="Submit">
+</body>
+</html>
