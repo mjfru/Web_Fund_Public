@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Dojonary</title>
+</head>
+<body>
+    
+    <div class="nav">
+        <h1 id="navtitle">Dojonary</h1>
+        <input type="text" placeholder="Search" id="searchbar">
+        <button onclick="logOut(this)" id="navbutton">Login</button>
+    </div>
+    
+    <div id="container">
+
+            <!-- Left Column Below -->
+            <div class="left-col">
+                <div class="definition-box">
+                    <div class="word-side">
+                        <h2>ninja</h2>
+                        <p class="part-speech"><i>noun</i></p>
+                        <p class="plural">Plural: Ninjas</p>
+                        <button onclick="alert('Ninja was liked!')" class="like-button">13 Likes</button>
+                    </div>
+                    <div class="definition-side">
+                        <p class="submitted-def">A practioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese_martial_arts">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a>.</p>
+                    </div>
+                </div>
+                <div class="definition-box">
+                    <div class="word-side">
+                        <h2>ninja</h2>
+                        <p class="part-speech"><i>noun</i></p>
+                        <p class="plural">Plural: Ninjas</p>
+                        <button onclick="alert('Ninja was liked!')" class="like-button">37 Likes</button>
+                    </div>
+                    <div class="definition-side">
+                        <p class="submitted-def">A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column Below -->
+            <div class="right-col">
+                <div class="userinput">
+                    <p id="slogan">Dojonary is<br> defined by <strong><u>YOU</u></strong>!</p>
+                    <button onclick="hide(this)" id="addbutton">Add definition</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

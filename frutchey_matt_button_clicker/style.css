@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cccccc;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+#navbutton {
+    background-color: #2b78e4;
+    color: whitesmoke;
+    width: 80px;
+    height: 30px;
+    box-shadow: 3px 2px 2px black;
+    font-size: 20px;
+}
+
+#searchbar {
+    height: 25px;
+    width: 300px;
+    border: 2px solid black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+    /* background-color:aquamarine; */
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    /* background-color: blue; */
+}
+
+.right-col {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: coral; */
+}
+
+.left-col, .right-col {
+    margin: 10px;
+}
+
+/* Left Side */
+
+.definition-box {
+    border: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+}
+
+.word-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: darkseagreen; */
+    flex: 1;
+    padding: 10px;
+}
+
+.definition-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color:purple; */
+    flex: 2;
+    margin-left: 20px;
+}
+
+/* .definition-side p {
+    text-align: center;
+} */
+
+h2 {
+    font-size: 48px;
+}
+
+.part-speech {
+    color: #adadad;
+    font-size: 24px;
+}
+
+.plural {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.like-button {
+    height: 50px;
+    width: 125px;
+    font-size: 24px;
+    background-color: #ffd966;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+.submitted-def {
+    font-size: 24px;
+    text-align: left;
+}
+
+/* Right Side */
+
+.userinput {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#slogan {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#addbutton {
+    height: 50px;
+    width: 300px;
+    font-size: 24px;
+    background-color: #93c47d;
+    box-shadow: 2px 2px 2px black;
+}
