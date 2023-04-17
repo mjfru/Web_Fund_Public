@@ -1,0 +1,65 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Some navigation bar classes I created for an assignment*/
+.nav {
+    display: flex;
+    background-color: #333333;
+    color: whitesmoke;
+    width: 100%;
+    margin: auto;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+/* A few button styles */
+#search {
+    border: 2px solid rgb(45, 139, 127);
+    border-radius: 10px;
+    background-color:whitesmoke;
+    color: rgb(45, 139, 127);
+    font-weight: bold;
+    padding: 2px 30px;
+    margin: 10px;
+}
+
+#plus {
+    border: 2px solid;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+#account {
+    border: 2px solid black;
+    color: white;
+    background-color: dodgerblue;
+    box-shadow: 2px 2px 2px black;
+    padding: 4px 40px;
+    margin: 10px;
+}
