@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 960px;
+    /* background-color: grey; */
+    display: flex;
+}
+.user-post {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+.user-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.user-name {
+    font-size: 36px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.likeCounter {
+    font-size: 24px;
+}
+
+.status-update {
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    font-size: 20px;
+}

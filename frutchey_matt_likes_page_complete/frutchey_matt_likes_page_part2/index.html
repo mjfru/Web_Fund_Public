@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h2 id="yournetwork">Network</h2>
+    </div>
+    <h1>Your Feed</h1>
+    <div id="wrapper">
+        <div id="col-left">
+            <div class="profilepreview">
+                <img src="user-circle.png" alt="profile picture">
+                <a href="">Add an avatar</a>
+                <p id="username">James Doe</p>
+            </div>
+        </div>
+
+        <div id="col-right"> 
+            
+            <div class="user-post">
+                <div class="user-bar">
+                    <h2 class="user-name">Neil M.</h2>
+                    <p id="postOneLikes">9 Like(s)</p>
+                    <button class="likeButton" onclick="increase(0)">Like</button>
+                </div>
+                <div class="status-update">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                </div>
+            </div>
+
+            <div class="user-post">
+                <div class="user-bar">
+                    <h2 class="user-name">Nichole K.</h2>
+                    <p id="postTwoLikes">12 Like(s)</p>
+                    <button class="likeButton" onclick="increase(1)">Like</button>
+                </div>
+                <div class="status-update">
+                    <p>Just finished my next <a href="">comic</a>, check it out.</p>
+                </div>
+            </div>
+
+            <div class="user-post">
+                <div class="user-bar">
+                    <h2 class="user-name">Jim R.</h2>
+                    <p id="postThreeLikes">9 Like(s)</p>
+                    <button class="likeButton" onclick="increase(2)">Like</button>
+                </div>
+                <div class="status-update">
+                    <p>I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+
+        </div> <!-- Closes the col-right -->
+    </div> <!-- Closes the wrapper -->
+    <script src="script.js"></script>
+</body>
+</html>
